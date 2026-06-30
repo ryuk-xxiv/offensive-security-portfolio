@@ -1,20 +1,47 @@
 # Offensive Security Portfolio
 
+> **PNPT Certified | Penetration Tester | Information Security Engineer | U.S. Navy Cyber Warfare Veteran**
+
 Welcome to my professional offensive security portfolio.
 
-This repository documents the methodologies, documentation standards, and technical approaches I use while conducting authorized security assessments and penetration tests.
+This repository documents the methodologies, documentation standards, and technical approaches I use while conducting **authorized** penetration tests and security assessments.
 
-The objective of this portfolio is not to publish exploit code or walkthroughs, but rather to demonstrate how I approach offensive security engagements from planning through reporting.
+Rather than publishing exploit code or challenge walkthroughs, this portfolio demonstrates **how I plan, execute, validate, and report professional offensive security engagements**.
 
 ---
 
 # About Me
 
-I am a PNPT-certified Penetration Tester and Information Security Engineer with experience performing internal network assessments, Active Directory security reviews, vulnerability management, and security consulting across healthcare, military, and consulting environments.
+I am a **Practical Network Penetration Tester (PNPT)** certified Penetration Tester and Information Security Engineer with experience performing:
 
-My background includes enterprise vulnerability management, offensive security assessments, Active Directory attack-path analysis, Windows and Linux privilege escalation, web application testing, and professional penetration testing reporting.
+- Internal Network Penetration Testing
+- Active Directory Security Assessments
+- Enterprise Vulnerability Assessments
+- Attack Path Analysis
+- Windows & Linux Security Reviews
+- Professional Penetration Test Reporting
 
-As a former U.S. Navy Cyber Warfare Technician (CTN/CWT), I supported national-level cyber operations involving offensive cyber operations, malware analysis, digital forensics, and vulnerability assessments.
+My professional background includes enterprise healthcare, military cyber operations, and security consulting.
+
+As a former **U.S. Navy Cyber Warfare Technician (CTN/CWT)**, I supported offensive cyber operations, malware analysis, digital forensics, and vulnerability assessments supporting national-level cyber missions.
+
+---
+
+# For Recruiters
+
+This repository demonstrates how I approach offensive security engagements from **planning through reporting**.
+
+The emphasis is on **professional methodology**, **risk validation**, and **communication**, rather than exploit collections or Capture-the-Flag walkthroughs.
+
+Examples throughout this repository include:
+
+- Assessment methodologies
+- Active Directory security reviews
+- Internal network penetration testing
+- Web application testing
+- Vulnerability validation
+- Executive and technical reporting
+- Risk-based remediation guidance
 
 ---
 
@@ -22,11 +49,11 @@ As a former U.S. Navy Cyber Warfare Technician (CTN/CWT), I supported national-l
 
 A successful penetration test is more than exploitation.
 
-It is a structured process designed to answer three questions:
+Every engagement should answer three questions:
 
-- What weaknesses exist?
-- How could they realistically be exploited?
-- How should the organization reduce risk?
+1. What weaknesses exist?
+2. How could they realistically be exploited?
+3. What actions will most effectively reduce organizational risk?
 
 Every assessment documented within this repository follows this philosophy.
 
@@ -34,70 +61,55 @@ Every assessment documented within this repository follows this philosophy.
 
 # Assessment Lifecycle
 
-Every engagement follows a repeatable methodology:
+Every engagement follows a repeatable methodology.
 
+```text
 Planning
-
-↓
-
+    │
 Reconnaissance
-
-↓
-
+    │
 Discovery
-
-↓
-
+    │
 Enumeration
-
-↓
-
+    │
 Validation
-
-↓
-
+    │
 Exploitation
-
-↓
-
+    │
 Privilege Escalation
-
-↓
-
+    │
 Post-Exploitation
-
-↓
-
+    │
 Risk Analysis
-
-↓
-
+    │
 Reporting
+```
 
 ---
 
 # Repository Structure
 
-## Active Directory
+## 📁 Active Directory
 
 Methodologies for assessing enterprise Active Directory environments.
 
 Topics include:
 
 - Domain Enumeration
+- LDAP Enumeration
 - BloodHound Analysis
 - Kerberos Security
-- Service Accounts
-- Password Policies
-- Group Policy
+- Service Account Reviews
+- Password Policy Reviews
+- Group Policy Analysis
 - Lateral Movement
 - Reporting
 
 ---
 
-## External Reconnaissance
+## 📁 External Reconnaissance
 
-Methodologies for external attack surface discovery.
+Professional methodologies for external attack surface discovery.
 
 Topics include:
 
@@ -110,54 +122,108 @@ Topics include:
 
 ---
 
-## Internal Network Penetration Testing
+## 📁 Internal Network Penetration Testing
 
-Documentation covering internal enterprise assessments.
+Methodologies for enterprise internal assessments.
 
 Topics include:
 
 - Host Discovery
+- Network Enumeration
 - SMB Enumeration
 - LDAP Enumeration
-- Pivoting
 - Credential Validation
 - Network Segmentation
+- Pivoting
 - Attack Path Analysis
 
 ---
 
-## Privilege Escalation
+## 📁 Privilege Escalation
 
 Windows and Linux privilege escalation methodologies.
 
+Topics include:
+
+- Windows Privilege Escalation
+- Linux Privilege Escalation
+- Credential Access
+- Post-Exploitation
+
 ---
 
-## Web Application Security
+## 📁 Web Application Security
 
-Assessment methodologies based on OWASP principles.
+Methodologies based on the OWASP Web Security Testing Guide.
+
+Topics include:
+
+- Authentication Testing
+- Authorization Testing
+- File Upload Testing
+- SQL Injection
+- Local File Inclusion
+- Cross-Site Scripting
+- Command Injection
 
 ---
 
-## Vulnerability Management
+## 📁 Vulnerability Management
 
-Enterprise vulnerability management methodology including:
+Enterprise vulnerability management methodology.
+
+Topics include:
 
 - Risk Prioritization
-- Validation
+- Vulnerability Validation
 - False Positive Analysis
+- Patch Verification
 - Executive Reporting
 
 ---
 
-## Sample Reports
+## 📁 Sample Reports
 
 Examples of professional penetration testing documentation.
 
+Topics include:
+
+- Executive Summaries
+- Technical Findings
+- Attack Narratives
+- Risk Ratings
+- Remediation Recommendations
+
 ---
 
-## Methodology
+## 📁 Methodology
 
-Assessment standards used throughout this repository.
+Assessment standards used throughout every engagement.
+
+Topics include:
+
+- Planning
+- Reconnaissance
+- Discovery
+- Exploitation
+- Post-Exploitation
+- Reporting
+
+---
+
+# Current Portfolio Progress
+
+- ✅ Repository Overview
+- 🚧 Active Directory
+- 🚧 Assessment Methodology
+- ⏳ External Reconnaissance
+- ⏳ Internal Network Penetration Testing
+- ⏳ Web Application Security
+- ⏳ Privilege Escalation
+- ⏳ Vulnerability Management
+- ⏳ Sample Reports
+- ⏳ PowerShell Automation
+- ⏳ Python Security Utilities
 
 ---
 
@@ -167,8 +233,9 @@ Throughout every engagement I strive to:
 
 - Validate findings manually whenever possible.
 - Prioritize business impact over scanner output.
-- Document repeatable methodologies.
-- Deliver practical remediation guidance.
+- Follow repeatable assessment methodologies.
+- Produce clear executive and technical reporting.
+- Deliver practical, actionable remediation guidance.
 - Maintain professionalism throughout the assessment lifecycle.
 
 ---
@@ -177,17 +244,27 @@ Throughout every engagement I strive to:
 
 Assessment methodologies documented within this repository reference industry best practices including:
 
-- PTES
+- Penetration Testing Execution Standard (PTES)
 - NIST SP 800-115
 - MITRE ATT&CK
-- OWASP Web Security Testing Guide
+- OWASP Web Security Testing Guide (WSTG)
 - CIS Benchmarks
 - Microsoft Security Baselines
 
 ---
 
+# Connect With Me
+
+- LinkedIn: *(add your profile URL)*
+- Horizon Security Solutions: https://www.hznsecurity.com *(once your site is complete)*
+- Email: *(professional email address)*
+
+---
+
 # Disclaimer
 
-This repository contains sanitized methodologies and professional documentation intended for educational purposes and authorized security assessments only.
+This repository contains **sanitized methodologies, templates, and documentation** intended for educational purposes and authorized security assessments.
 
-No client data, exploit code, credentials, or sensitive assessment artifacts are published.
+No client data, exploit code, credentials, proprietary information, or sensitive assessment artifacts are included.
+
+All examples are derived from authorized lab environments or sanitized consulting methodologies.
