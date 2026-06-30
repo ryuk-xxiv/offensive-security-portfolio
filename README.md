@@ -25,13 +25,13 @@ Currently, I serve as an Information Security Engineer for a large healthcare or
 
 | Section | Description |
 |---|---|
-| `01-active-directory` | Active Directory assessment methodology, attack-path notes, and sanitized lab examples. |
-| `02-web-application-security` | Web application testing methodology and safe testing notes. |
-| `03-internal-network-pentest` | Internal network penetration testing workflow and report-ready methodology. |
-| `04-privilege-escalation` | Windows and Linux privilege escalation methodology and checklist-style notes. |
-| `05-vulnerability-management` | Enterprise vulnerability management program design, prioritization, and remediation tracking. |
-| `06-scripts` | Safe automation examples and placeholders for Python, PowerShell, and Bash utilities. |
-| `07-sample-reports` | Sanitized report templates and findings examples. |
+| `active-directory` | Active Directory assessment methodology, attack-path notes, and sanitized lab examples. |
+| `web-application-security` | Web application testing methodology and safe testing notes. |
+| `internal-network-pentest` | Internal network penetration testing workflow and report-ready methodology. |
+| `privilege-escalation` | Windows and Linux privilege escalation methodology and checklist-style notes. |
+| `vulnerability-management` | Enterprise vulnerability management program design, prioritization, and remediation tracking. |
+| `scripts` | Safe automation examples and placeholders for Python, PowerShell, and Bash utilities. |
+| `sample-reports` | Sanitized report templates and findings examples. |
 
 ## Tools and Technologies
 
