@@ -255,9 +255,8 @@ Assessment methodologies documented within this repository reference industry be
 
 # Connect With Me
 
-- LinkedIn: *(add your profile URL)*
-- Horizon Security Solutions: https://www.hznsecurity.com *(once your site is complete)*
-- Email: *(professional email address)*
+- LinkedIn: https://www.linkedin.com/in/ddominguezjr/
+- Email: derek.dominguez@hznsecurity.com
 
 ---
 
